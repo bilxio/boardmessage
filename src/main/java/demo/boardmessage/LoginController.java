@@ -1,5 +1,7 @@
 package demo.boardmessage;
 
+import demo.boardmessage.mvc.Controller;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -17,7 +19,7 @@ public class LoginController implements Controller {
         if(userName != null && password != null){
             return "welcome";
         }else {
-            return "fail.jsp";
+            return "fail";
         }
     }
 

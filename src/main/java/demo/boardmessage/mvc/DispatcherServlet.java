@@ -1,7 +1,4 @@
-package demo.boardmessage.core;
-
-import com.sun.deploy.net.HttpRequest;
-import demo.boardmessage.Controller;
+package demo.boardmessage.mvc;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +12,7 @@ import java.lang.reflect.Method;
  * @author Bill
  * @version 2012-12-17
  */
-public class ApplicationServlet extends HttpServlet{
+public class DispatcherServlet extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

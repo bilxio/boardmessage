@@ -16,7 +16,7 @@
     
     <servlet>
         <servlet-name>ApplicationServlet</servlet-name>
-        <servlet-class>demo.boardmessage.core.ApplicationServlet</servlet-class>
+        <servlet-class>demo.boardmessage.mvc.DispatcherServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ApplicationServlet</servlet-name>

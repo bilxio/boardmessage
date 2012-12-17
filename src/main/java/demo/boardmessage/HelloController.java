@@ -1,5 +1,7 @@
 package demo.boardmessage;
 
+import demo.boardmessage.mvc.Controller;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
